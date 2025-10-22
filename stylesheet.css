@@ -1309,50 +1309,9 @@ audio {
     	}
 
     }*/
-.balloons {
-  display: inline-block;
-  width: 80px;
-  height: 100px;
-  text-align: center;
-  margin: 0 5px;
-}
-
-.balloons h2 {
-  font-size: 2rem;
-}
-
-/* 🎈 Container for centering */
-.balloons-container {
-  text-align: center;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
-/* 📱 Mobile adjustments */
-@media (max-width: 768px) {
-  .balloons {
-    width: 50px;
-    height: 70px;
-    margin: 0 2px;
-  }
-
-  .balloons h2 {
-    font-size: 1.2rem;
-  }
-
-  .balloons-container {
-    white-space: normal;
-  }
-}
-
-@media (max-width: 480px) {
-  .balloons {
-    width: 40px;
-    height: 60px;
-    margin: 0 1px;
-  }
-
-  .balloons h2 {
-    font-size: 1rem;
-  }
+img.balloon-border {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
 }
