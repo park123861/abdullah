@@ -1315,3 +1315,58 @@ img.balloon-border {
   max-width: 100%;
   display: block;
 }
+/* 🎈 Responsive balloon fix */
+.balloons-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  max-width: 100%;
+  margin: 0 auto;
+  gap: 5px;
+}
+
+.balloons {
+  width: 90px;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3px;
+}
+
+.balloons h2 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+/* Tablet view */
+@media (max-width: 768px) {
+  .balloons {
+    width: 60px;
+    height: 80px;
+  }
+
+  .balloons h2 {
+    font-size: 1.3rem;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 480px) {
+  .balloons {
+    width: 45px;
+    height: 65px;
+  }
+
+  .balloons h2 {
+    font-size: 1rem;
+  }
+}
+.balloon-border {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: -10px;
+}
+
